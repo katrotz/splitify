@@ -8,3 +8,4 @@ meteor-platform
 autopublish
 insecure
 snapsvg:core
+iron:router
