@@ -80,6 +80,8 @@
     "UI": false,
     "_": false,
     "Deps": false,
+    "process": false,
+    "Mongo": false,
     // Atmosphere packages
     "SimpleSchema": false,
     "AccountsEntry": false,
