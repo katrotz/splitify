@@ -95,7 +95,11 @@
     "require": false,
     "suite": false,
     "test": false,
-    "emit": false
+    "emit": false,
+    // Router specific globals
+    "Router": false,
+    "RouteController": false,
+    "SEO": false
     // App specific globals
   }
 }

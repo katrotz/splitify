@@ -9,3 +9,6 @@ autopublish
 insecure
 snapsvg:core
 iron:router
+materialize:materialize
+fourseven:scss
+manuelschoebel:ms-seo
