@@ -12,3 +12,5 @@ iron:router
 materialize:materialize
 fourseven:scss
 manuelschoebel:ms-seo
+accounts-ui-unstyled
+accounts-password

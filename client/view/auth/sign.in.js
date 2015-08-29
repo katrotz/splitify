@@ -1,0 +1,16 @@
+Template['sign.in'].helpers({});
+
+Template['sign.in'].events({
+  'submit form#sign-in-form': function(event) {
+    event.preventDefault();
+
+    var id = event.target.id.value;
+    var password = event.target.password.value;
+
+    Meteor.loginWithPassword(id, password, function(err) {
+      if (err) {
+        console.log(err);
+      }
+    });
+  }
+});
