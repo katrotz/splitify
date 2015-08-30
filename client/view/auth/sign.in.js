@@ -9,8 +9,10 @@ Template['sign.in'].events({
 
     Meteor.loginWithPassword(id, password, function(err) {
       if (err) {
-        console.log(err);
+        Materialize.toast(err.reason, 4000);
       }
+
+      return Router.go('profile');
     });
   }
 });
