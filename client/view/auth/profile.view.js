@@ -1,3 +1,5 @@
-/**
- * Created by katrotz on 28.08.15.
- */
+Template['profile.view'].helpers({
+  'profile': function(){
+    return Users.findOne({username: Router.current().params.username});
+  }
+});
