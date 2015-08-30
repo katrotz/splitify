@@ -90,6 +90,7 @@
     "moment": false,
     "Accounts": false,
     "Router": false,
+    "Iron": false,
     "Toast": false,
     // Laika testing
     "require": false,
