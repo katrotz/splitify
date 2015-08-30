@@ -102,7 +102,14 @@
     "RouteController": false,
     "SEO": false,
     // Materialize
-    "Materialize": false
-    // App specific globals
+    "Materialize": false,
+    // App specific globals,
+    "Restaurants": false,
+    "Bills": false,
+    "Expences": false,
+    "Items": false,
+    "Participants": false,
+    "Tables": false,
+    "Users": false
   }
 }
