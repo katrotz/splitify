@@ -1,6 +1,6 @@
-Template['sign.in'].helpers({});
+Template.signIn.helpers({});
 
-Template['sign.in'].events({
+Template.signIn.events({
   'submit form#sign-in-form': function(event) {
     event.preventDefault();
 
