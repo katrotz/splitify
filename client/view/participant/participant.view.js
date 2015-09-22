@@ -1,3 +1,0 @@
-Template['participant.view'].helpers({
-
-});
