@@ -4,3 +4,4 @@
 
 > Manage your shared restaurant bills like a boss
 
+[![Build Status](https://travis-ci.org/katrotz/splitify.svg)](https://travis-ci.org/katrotz/splitify)
