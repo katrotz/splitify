@@ -1,14 +1,27 @@
+sudo: required
 language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.meteor
+notifications:
+  email: false
 node_js:
-  - "0.12"
+  - '4'
+  - '0.12.7'
 before_install:
-  - "curl -L http://git.io/ejPSng | /bin/sh"
-  - "curl -L https://raw.githubusercontent.com/arunoda/travis-ci-laika/master/configure.sh | /bin/sh"
+  - curl -L http://git.io/ejPSng | /bin/sh
+  - npm i -g npm@^2.0.0
+  - npm i -g velocity-cli
+  - npm i -g phantomjs@^2.0.0
+before_script:
+  - npm prune
+script:
+  - npm test
+after_success:
+  - npm run semantic-release
+branches:
+  except:
+    - "/^v\\d+\\.\\d+\\.\\d+$/"
 services:
   - mongodb
-env:
-  - LAIKA_OPTIONS="-t 5000"
-branches:
-  only:
-  - master
-sudo: required

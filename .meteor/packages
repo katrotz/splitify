@@ -4,10 +4,9 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-autopublish
 insecure
 iron:router
-fourseven:scss
+fourseven:scss@3.4.0-beta1
 manuelschoebel:ms-seo
 accounts-ui-unstyled
 accounts-password
@@ -30,3 +29,5 @@ spacebars
 check
 ecmascript
 materialize:materialize@=0.97.0
+sanjo:jasmine
+velocity:console-reporter

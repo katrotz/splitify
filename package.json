@@ -1,0 +1,40 @@
+{
+  "name": "splitify",
+  "version": "0.0.1-semantic-released",
+  "description": "Splitify is a way to save your time when sharing the restaurant bill with someone",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "run": "meteor run --settings settings.json",
+    "test": "PHANTOMJS_BIN=/usr/local/bin/phantomjs JASMINE_BROWSER=PhantomJS JASMINE_SERVER_UNIT=1 JASMINE_SERVER_INTEGRATION=0 JASMINE_CLIENT_UNIT=0 JASMINE_CLIENT_INTEGRATION=0 VELOCITY_DEBUG=1 velocity test-app --once --ci --settings settings.json",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/katrotz/splitify.git"
+  },
+  "keywords": [
+    "splitify",
+    "split",
+    "bill",
+    "restaurant",
+    "check",
+    "share"
+  ],
+  "author": "Veaceslav Cotruta <katrotz@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/katrotz/splitify/issues"
+  },
+  "homepage": "https://github.com/katrotz/splitify#readme",
+  "devDependencies": {
+    "commitizen": "^1.0.5",
+    "cz-conventional-changelog": "^1.1.2",
+    "semantic-release": "^4.3.5"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }
+}
