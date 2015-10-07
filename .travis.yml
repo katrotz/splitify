@@ -13,11 +13,10 @@ before_install:
   - curl -L http://git.io/ejPSng | /bin/sh
   - npm i -g npm@^2.0.0
   - npm i -g velocity-cli
-  - npm i -g phantomjs@^2.0.0
 before_script:
   - npm prune
 script:
-  - npm test
+  - npm run test:ci
 after_success:
   - npm run semantic-release
 branches:
