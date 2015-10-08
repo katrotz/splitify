@@ -6999,7 +6999,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "3b75dcc35aff50ef99fa101e7537bfe9d72ddb5c"
+                  "value": "978ef6213d88ae9ae32e64f115f8d4cd0f8a4dcc"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "object",
@@ -7015,7 +7015,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "1996bd1f7ceb730e816477777c0171d63e1a1ab8"
+                  "value": "c4ec68c34d6ac14b616203f23a918285a5ee0589"
                 },
                 "PUBLIC_SETTINGS": {
                   "ref": 4
@@ -10539,41 +10539,6 @@ var packageMetadata = {
   "blaze-html-templates": {},
   "reload": {},
   "materialize:materialize": {},
-  "practicalmeteor:loglevel": {
-    "loglevel": {
-      "type": "object",
-      "members": {
-        "createLogger": {
-          "type": "function"
-        },
-        "createPackageLogger": {
-          "type": "function"
-        },
-        "createAppLogger": {
-          "type": "function"
-        }
-      }
-    },
-    "ObjectLogger": {
-      "type": "function",
-      "members": {
-        "prototype": {
-          "type": "object",
-          "members": {
-            "enter": {
-              "type": "function"
-            },
-            "return": {
-              "type": "function"
-            },
-            "bindMethod": {
-              "type": "function"
-            }
-          }
-        }
-      }
-    }
-  },
   "velocity:chokidar": {
     "chokidar": {
       "type": "object",
@@ -10914,6 +10879,41 @@ var packageMetadata = {
       "members": {
         "install": {
           "type": "function"
+        }
+      }
+    }
+  },
+  "practicalmeteor:loglevel": {
+    "loglevel": {
+      "type": "object",
+      "members": {
+        "createLogger": {
+          "type": "function"
+        },
+        "createPackageLogger": {
+          "type": "function"
+        },
+        "createAppLogger": {
+          "type": "function"
+        }
+      }
+    },
+    "ObjectLogger": {
+      "type": "function",
+      "members": {
+        "prototype": {
+          "type": "object",
+          "members": {
+            "enter": {
+              "type": "function"
+            },
+            "return": {
+              "type": "function"
+            },
+            "bindMethod": {
+              "type": "function"
+            }
+          }
         }
       }
     }
@@ -11565,7 +11565,7 @@ var packageMetadata = {
             "cache": {
               "type": "object",
               "members": {
-                "1444222161138undefined": {
+                "1444292030514undefined": {
                   "type": "constant",
                   "value": "/Library/WebServer/Documents/splitify"
                 }
@@ -12761,6 +12761,36 @@ var packageMetadata = {
     }
   },
   "velocity:shim": {},
+  "velocity:console-reporter": {
+    "ConsoleReporter": {
+      "type": "function",
+      "members": {
+        "prototype": {
+          "type": "object",
+          "members": {
+            "reportSummary": {
+              "type": "function"
+            },
+            "reportPassed": {
+              "type": "function"
+            },
+            "reportFailed": {
+              "type": "function"
+            },
+            "reportOneFailed": {
+              "type": "function"
+            },
+            "totalTime": {
+              "type": "function"
+            },
+            "formatTime": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
   "velocity:meteor-stubs": {
     "MeteorStubs": {
       "type": "object",
@@ -12840,36 +12870,6 @@ var packageMetadata = {
         },
         "setKarmaConfig": {
           "type": "function"
-        }
-      }
-    }
-  },
-  "velocity:console-reporter": {
-    "ConsoleReporter": {
-      "type": "function",
-      "members": {
-        "prototype": {
-          "type": "object",
-          "members": {
-            "reportSummary": {
-              "type": "function"
-            },
-            "reportPassed": {
-              "type": "function"
-            },
-            "reportFailed": {
-              "type": "function"
-            },
-            "reportOneFailed": {
-              "type": "function"
-            },
-            "totalTime": {
-              "type": "function"
-            },
-            "formatTime": {
-              "type": "function"
-            }
-          }
         }
       }
     }
@@ -12955,7 +12955,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "62446939393c424589bb75d351f934b0745f56a3"
+          "value": "d51768c5ac9a1344b8ea06ca391917fc7d84ad04"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -12963,7 +12963,7 @@ var packageMetadata = {
         },
         "autoupdateVersionCordova": {
           "type": "constant",
-          "value": "1996bd1f7ceb730e816477777c0171d63e1a1ab8"
+          "value": "c4ec68c34d6ac14b616203f23a918285a5ee0589"
         },
         "appId": {
           "type": "constant",
