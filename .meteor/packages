@@ -29,5 +29,5 @@ spacebars
 check
 ecmascript
 materialize:materialize@=0.97.0
-sanjo:jasmine
 velocity:console-reporter
+sanjo:jasmine
